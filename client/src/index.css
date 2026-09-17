@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Qasab uga dhig html, body, iyo #root in ay madoobaadaan marka Dark Mode la shido */
+html.dark,
+html.dark body,
+html.dark #root {
+  background-color: #020617 !important; /* bg-slate-950 */
+  color: #ffffff !important;
+}
